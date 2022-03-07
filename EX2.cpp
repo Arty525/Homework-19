@@ -17,7 +17,7 @@ string convert(string address) {
 int main() {
 	string address = "D:\\RTY\\GITHUB\\Repositories\\homework-19\\EX1\\textfile.txt";
 	//string text;
-	char chunk[1];
+	string chunk;
 
 	//cout << "Input file address: ";
 	//cin >> address;
@@ -32,8 +32,8 @@ int main() {
 		return main();
 	}
 	while (!file.eof()) {
-		file.read(chunk, sizeof(chunk));
-		cout << chunk;
+		file >> chunk;
+		cout << chunk << " ";
 	}
 	file.close();
 	return 0;
