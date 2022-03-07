@@ -9,7 +9,7 @@ int search(string word) {
 	int counter = 0;
 	
 	read.open("D:\\RTY\\GITHUB\\Repositories\\homework-19\\EX1\\textfile.txt");
-	for (int i = 0; !read.eof(); i += text.length()+1) {
+	while (!read.eof()) {
 		read >> text;
 		counter += text == word;
 	}
