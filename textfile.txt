@@ -1,3 +1,0 @@
-1 string hello world something hello ello hi text search hell hi
-2 string abc
-3 string abcdefghijklmnopqrstuvwxyz
