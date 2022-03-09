@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <fstream>
+#include <string>
 
 using namespace std;
 
@@ -15,12 +16,12 @@ string convert(string address) {
 }
 
 int main() {
-	string address = "D:\\RTY\\GITHUB\\Repositories\\homework-19\\EX1\\textfile.txt";
-	//string text;
-	string chunk;
+	string address;
+	string text;
+	char chunk[64];
 
-	//cout << "Input file address: ";
-	//cin >> address;
+	cout << "Input file address: ";
+	cin >> address;
 
 	ifstream file;
 	file.open(convert(address), ios::binary);
@@ -31,9 +32,9 @@ int main() {
 		cout << "File is not open." << endl;
 		return main();
 	}
-	while (!file.eof()) {
-		file >> chunk;
-		cout << chunk << " ";
+	while (getline(file, text))
+	{
+		cout << text << endl;
 	}
 	file.close();
 	return 0;
