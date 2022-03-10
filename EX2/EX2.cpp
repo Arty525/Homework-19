@@ -18,7 +18,6 @@ string convert(string address) {
 int main() {
 	string address;
 	string text;
-	char chunk[64];
 
 	cout << "Input file address: ";
 	cin >> address;
