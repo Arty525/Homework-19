@@ -8,7 +8,7 @@ int search(string word) {
 	ifstream read;
 	int counter = 0;
 	
-	read.open("D:\\RTY\\GITHUB\\Repositories\\homework-19\\EX1\\textfile.txt");
+	read.open("D:\\RTY\\GITHUB\\Repositories\\homework-19\\EX1\\words.txt");
 	while (!read.eof()) {
 		read >> text;
 		counter += text == word;
