@@ -44,7 +44,7 @@ int main() {
 	picture.open(convert(address),ios::binary);
 	picture.read(title, sizeof(title));
 
-	for (int i = 0; i < 5; ++i) {
+	for (int i = 0; i < 4; ++i) {
 		if (title[i] != mask[i]) {
 			cout << "It's not .PNG file" << endl;
 			picture.close();
