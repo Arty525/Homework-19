@@ -47,10 +47,13 @@ int main() {
 	for (int i = 0; i < 5; ++i) {
 		if (title[i] != mask[i]) {
 			cout << "It's not .PNG file" << endl;
+			picture.close();
 			return main();
 		}
 	}
-
+	
+	picture.close();
+	
 	cout << "It's .PNG file." << endl;
 
 	return 0;
