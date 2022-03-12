@@ -1,0 +1,4 @@
+Sector 12
+A declarative programming language used to create, modify,
+and manipulate data in a relational database managed by
+an appropriate database management system.

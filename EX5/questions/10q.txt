@@ -1,0 +1,4 @@
+Sectro 10
+Creator of URI, URL, HTTP, HTML, and the World Wide Web (with Robert Cayo)
+and current head of the World Wide Web Consortium. Author of the concept of the semantic web,
+many other developments in the field of information technology.

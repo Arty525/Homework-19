@@ -1,0 +1,3 @@
+Sector 13
+A colliding beam accelerator designed to accelerate protons and heavy ions (lead ions)
+and study the products of their collisions.
